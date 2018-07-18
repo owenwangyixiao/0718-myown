@@ -9,50 +9,22 @@ body {
    margin: auto;
    width: (15 * $grid--unit);
 
-   // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-   //    width: (10 * $grid--unit);
-   // }
-   //
-   // @media (max-width: ($breakpoint--tablet + $grid--unit)) {
-   //    width: auto;
-   // }
-}
-
-// header,
-// nav,
-// main,
-// footer {
-//    border: $width--border--thin solid $color--border;
-// }
-
-main {
-   // display: flex;
-   // float: left;
-   border: 0;
-
-   // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-   //    // display: block;
-   //    float: inherit;
-   // }
-}
-
-
-   // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-   //    width: auto;
-   // }
-
-   img {
-      // display: block;
-      width: (5 * $grid--unit);
-
-      // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-      //    display: inline;
-      // }
-      //
-      // @media (max-width: ($breakpoint--tablet + $grid--unit)) {
-      //    width: 100%;
-      // }
+   @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+      width: (10 * $grid--unit);
    }
+
+   @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+      width: 100%;
+   }
+}
+
+img {
+   width: (5 * $grid--unit);
+
+   @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+      width: 100%;
+   }
+}
 
 div {
    line-height: 0;
