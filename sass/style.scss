@@ -4,3 +4,16 @@
    margin: 0;
    padding: 0;
 }
+
+body {
+   margin: auto;
+   width: (15 * $grid--unit);
+
+   @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+      width: (10 * $grid--unit);
+   }
+
+   @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+      width: 100%;
+   }
+}
