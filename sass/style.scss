@@ -9,21 +9,21 @@ body {
    margin: auto;
    width: (15 * $grid--unit);
 
-   @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-      width: (10 * $grid--unit);
-   }
-
-   @media (max-width: ($breakpoint--tablet + $grid--unit)) {
-      width: auto;
-   }
+   // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+   //    width: (10 * $grid--unit);
+   // }
+   //
+   // @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+   //    width: auto;
+   // }
 }
 
-header,
-nav,
-main,
-footer {
-   border: $width--border--thin solid $color--border;
-}
+// header,
+// nav,
+// main,
+// footer {
+//    border: $width--border--thin solid $color--border;
+// }
 
 main {
    // display: flex;
@@ -36,10 +36,6 @@ main {
    // }
 }
 
-.card {
-   width: (5 * $grid--unit);
-   line-height: 0;
-   float: left;
 
    // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
    //    width: auto;
@@ -57,4 +53,7 @@ main {
       //    width: 100%;
       // }
    }
+
+div {
+   line-height: 0;
 }
